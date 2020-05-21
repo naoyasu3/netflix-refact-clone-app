@@ -1,0 +1,23 @@
+.CardText {
+  width: 52%;
+  height: 100%;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  padding: 0 3rem 0 0;
+  z-index: 3;
+  font-size: 1.625rem;
+  font-weight: normal;
+}
+
+.CardText h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin: 0 0 .4em;
+}
+
+.CardText h2 {
+  font-size: 1.625rem;
+  font-weight: normal;
+  margin: .75em 0 .25em;
+}

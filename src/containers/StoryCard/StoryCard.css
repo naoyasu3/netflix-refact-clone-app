@@ -1,0 +1,8 @@
+.StoryCard {
+  padding: 70px 45px;
+  position: relative;
+  border-bottom: 8px solid #222;
+  margin-bottom: 0;
+  background: transparent;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.CardImgContainer {
+  width: 48%;
+  height: 100%;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
