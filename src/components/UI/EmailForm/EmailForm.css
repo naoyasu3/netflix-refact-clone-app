@@ -1,0 +1,105 @@
+.EmailForm {
+  width: 950px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0.85rem 6rem 0 0;
+}
+
+.EmailForm ul {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+  text-align: right;
+}
+
+.EmailForm li {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.EmailForm label {
+  list-style: none;
+}
+
+.EmailForm.cta-link {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+}
+
+.nfInput {
+  margin: 0;
+  display: inline-block;
+  max-width: 500px;
+  position: relative;
+}
+
+.nfInput input {
+  min-width: 450px;
+  height: 60px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+
+.placeLabel {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  color: #8c8c8c;
+  transform: translateY(-50%);
+}
+
+.ctaLink {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  -webkit-box-flex: 1;
+}
+
+.ctaLink button {
+  border: none;
+  margin: 0;
+  font-size: 1.625rem;
+  min-height: 60px;
+  padding: 0 1em;
+  color: #fff;
+  background-color: var(--main-red);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.ctaLink button:hover {
+  background-color: var(--main-red-hover);
+  cursor: pointer;
+}
+
+.btnText {
+  padding: 0.5rem 0;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.btnArrow {
+  height: 0.75em;
+  width: 0.35em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -moz-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  margin: 0 0 0 0.5em;
+  position: relative;
+}

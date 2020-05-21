@@ -1,7 +1,7 @@
 /* 全体 */
 :root {
-  --main-red: rgba(211, 9, 19);
-  --main-red-hover: #e50914;
+  --main-red: #e50914;
+  --main-red-hover: #f00a15;
   --main-dark: rgba(20, 20, 20);
   --main-deep-dark: rgba(0, 0, 0);
   --main-grey: rgba(153, 153, 153);
@@ -21,4 +21,17 @@ body {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #e50914;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510));
+  background-image: -webkit-linear-gradient(top, #e50914, #db0510);
+  background-image: -moz- oldlinear-gradient(top, #e50914, #db0510);
+  background-image: -o-linear-gradient(top, #e50914, #db0510);
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }

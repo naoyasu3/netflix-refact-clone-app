@@ -1,1 +1,32 @@
-.TopCardText {}
+.CardText {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.CardText h1 {
+  font-size: 4rem;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.1;
+}
+
+.CardText h2 {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+  max-width: 380px;
+  font-weight: normal;
+}
+
+.CardText form {
+  max-width: 950px;
+  padding-top: 0.85rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  flex-flow: column-reverse;
+  display: block;
+}

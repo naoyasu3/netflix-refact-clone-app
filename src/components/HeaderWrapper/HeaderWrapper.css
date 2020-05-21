@@ -1,4 +1,5 @@
 .HeaderWrapper {
+  height: 4rem;
   background-color: transparent;
   -webkit-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
@@ -13,6 +14,5 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 5rem;
   z-index: 10;
 }
