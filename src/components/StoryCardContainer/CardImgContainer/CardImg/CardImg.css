@@ -12,7 +12,7 @@
   border: 0;
 }
 
-.CardAnimation {
+.WatchOnTvAnimation {
   width: 100%;
   height: 100%;
   max-width: 73%;
@@ -23,7 +23,29 @@
   transform: translate(-50%, -50%);
 }
 
-.CardAnimation video {
+.WatchOnTvAnimation video {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.WatchOnDeviceAnimation {
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.WatchOnDeviceAnimation video {
   width: 100%;
   height: 100%;
   display: inline-block;

@@ -5,8 +5,12 @@ import CardText from "./CardText/CardText";
 import CardImgContainer from "./CardImgContainer/CardImgContainer";
 
 const StoryCardContainer = (props) => {
+  let flippedClass = [classes.StoryCardContainer];
+  if (props.content.flipped) {
+    flippedClass = [classes.StoryCardContainer, classes.Flipped];
+  }
   return (
-    <div className={classes.StoryCardContainer}>
+    <div className={flippedClass.join(" ")}>
       <CardText
         headline={props.content.headline}
         subHeadline={props.content.subHeadline}
@@ -14,6 +18,7 @@ const StoryCardContainer = (props) => {
       <CardImgContainer
         image={props.content.image}
         video={props.content.video}
+        class={props.content.class}
       />
     </div>
   );
